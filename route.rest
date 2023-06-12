@@ -1,0 +1,28 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/647f86bd57ef9ece0a48e46a
+
+###
+
+POST http://localhost:3000/subscribers
+COntent-Type:application/json
+
+{
+    "name": "Hassan",
+    "subscribedToChannel": "Hassan is Amazing"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/647f886de164482c2b72d6c4
+
+###
+
+PATCH http://localhost:3000/subscribers/647f86bd57ef9ece0a48e46a
+Content-Type: application/json
+
+{
+    "name" : "Afaan"
+}
